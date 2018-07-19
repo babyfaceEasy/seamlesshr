@@ -51,6 +51,6 @@ Route::get('storage/{filename}', function ($filename)
 
     return $response;
 });
-
+Route::get('/question_2', 'BalancedBracesController');
 Route::resource('/company', 'CompanyController');
 Route::resource('/employee', 'EmployeeController');
